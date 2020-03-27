@@ -161,7 +161,7 @@ int main01(int argc, char const* argv[])
     }
     std::cout << "bst isEmpty" << bst.isEmpty() << std::endl;
     std::cout << "bst size" << bst.size() << std::endl;
-    std::cout << "search 55:" << *bst.search(9) << std::endl;
+    std::cout << "search :" << *bst.search(9) << std::endl;
     
     std::cout << "preOrder:" << std::endl;
     bst.preOrder();
